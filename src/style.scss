@@ -15,7 +15,7 @@
 }
 
 .formContainer {
-  background-color: #90974b;
+  background-color: #3d4255;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@
 }
 
 .home {
-  background-color: #90974b;
+  background-color: #3d4255;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -108,18 +108,17 @@
 
     .sidebar {
       flex: 1;
-      background-color: #696d42;
+      background-color: #3e3c61;
       position: relative;
 
       .navbar {
         display: flex;
         align-items: center;
-        background-color: #5b5731;
+        background-color: #2f2d52;
         height: 50px;
         padding: 10px;
         justify-content: space-between;
         color: #ddddf7;
-
 
         .logo {
           font-weight: bold;
@@ -181,7 +180,7 @@
         cursor: pointer;
 
         &:hover {
-          background-color: #5b5936;
+          background-color: #2f2d52;
         }
 
         img {
@@ -208,7 +207,7 @@
 
       .chatInfo {
         height: 50px;
-        background-color: #5b5936;
+        background-color: #5d5b8d;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -227,7 +226,7 @@
       }
 
       .messages {
-        background-color: #828b5d;
+        background-color: #8787c7;
         padding: 10px;
         height: calc(100% - 160px);
         overflow-y: scroll;
